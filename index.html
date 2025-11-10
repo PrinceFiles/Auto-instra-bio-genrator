@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="QuickPDFtools - Merge and Compress PDF files online for free." />
+  <title>QuickPDFtools - Merge & Compress PDF</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="assets/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>QuickPDFtools</h1>
+    <p>Merge and Compress PDFs - Free and Fast</p>
+  </header>
+
+  <main>
+    <section id="merge-section">
+      <h2>Merge PDFs</h2>
+      <input type="file" id="merge-input" multiple accept="application/pdf" />
+      <button id="merge-btn">Merge PDFs</button>
+      <button id="merge-download" class="hidden">Download Merged PDF</button>
+    </section>
+
+    <section id="compress-section">
+      <h2>Compress PDF</h2>
+      <input type="file" id="compress-input" accept="application/pdf" />
+      <button id="compress-btn">Compress PDF</button>
+      <button id="compress-download" class="hidden">Download Compressed PDF</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 QuickPDFtools | All rights reserved</p>
+  </footer>
+</body>
+</html>
